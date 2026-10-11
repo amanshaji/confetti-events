@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confetti Events</title>
+    <!-- iconfor tab -->
+     <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/10178/10178514.png">
+     <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <!-- link css -->
+      <link rel="stylesheet" href="./style.css">
+      <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Ink:wght@100..900&family=Edu+QLD+Hand:wght@400..700&family=Instrument+Serif:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&family=Permanent+Marker&family=Playwrite+BE+WAL+Guides&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+     <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img width="50px" src="./images/logo.png" alt="Logo unavailable"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cards">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#carouselExample">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#cards">Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-success" type="submit">Book Now</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!-- hero section -->
+      <section class="hero" id="home">
+        <!-- text content -->
+        <div>
+            <h1 id="heroTitle">We PLAN You CELEBRATE</h1>
+            <p id="heroPara">Weddings, birthdays, or just because: we plan every detail so you can enjoy the celebration.</p>
+        </div>
+        <!-- image -->
+         <div data-aos="fade-down-left">
+            <img id="heroImage" width="860px" src="./images/hero.png" alt="Image Unavailable">
+         </div>
+      </section>
+
+      <!-- cards -->
+ <div id="cards" class="row my-auto mx-auto justify-content-center">
+    <div class="col-4">
+        <div class="card mx-auto" style="width: 18rem;">
+        <img src="./images/wedding.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Weddings</h5>
+            <p class="card-text">Creating timeless moments filled with love, elegance, and unforgettable memories.</p>
+            <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card mx-auto" style="width: 18rem;">
+        <img src="./images/bday.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Birthdays</h5>
+            <p class="card-text">Turning your special day into a joyful celebration to remember.</p>
+            <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card mx-auto" style="width: 18rem;">
+        <img src="./images/conf.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Conferences</h5>
+            <p class="card-text">Bringing people together through seamless, professional, and inspiring events.</p>
+            <a href="#" class="btn btn-primary">Explore</a>
+        </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- carousel -->
+ <div id="carouselExample" class="carousel slide mx-auto pt-5 pb-4" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img  src="./images/car1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/car2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/car3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <!-- footer -->
+    <footer id="contact" class="footer">
+        <p class="footerText">Where every celebration begins. &#9787;</p>
+        <div class="socialIcons">
+            <a href="https://www.facebook.com/" target="_blank" class="smLink"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/" target="_blank" class="smLink"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://gmail.com" target="_blank" class="smLink"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+</body>
+<!-- bootstrap script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</html>

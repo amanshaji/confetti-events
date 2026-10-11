@@ -1,0 +1,67 @@
+body{
+    background-color: #FFF5EE;
+    font-family: "Karla", sans-serif;
+}
+.navbar{
+    background-color: #FFF5EE;
+}
+
+.hero{
+    display: flex;
+    padding: 160px 8%;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.heroText{
+    flex: 1;
+    animation: fadein 1.5s ease;
+}
+#heroTitle{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: "Permanent Marker", cursive;
+    color: #4A4458;
+}
+#heroPara{
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 20px;
+    font-family: "Edu QLD Hand", cursive;
+}
+.heroImage{
+    flex: 1;
+}
+#heroImage{
+    
+    border-radius: 15px;
+}
+
+.carousel{
+    max-width: 800px;
+}
+.carousel-item img{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.footer{
+    padding: 25px;
+    background-color: rgb(52, 51, 51);
+    color: #aaa;
+    text-align: center;
+}
+.footerText{
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.smLink{
+    color: #ccc;
+    margin: 0px 8px;
+    transition: 0.35s;
+}
+.smLink:hover{
+    color: white;
+}
