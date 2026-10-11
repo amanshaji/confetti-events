@@ -4,6 +4,11 @@ body{
 }
 .navbar{
     background-color: #FFF5EE;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
 .hero{
@@ -15,7 +20,6 @@ body{
 }
 .heroText{
     flex: 1;
-    animation: fadein 1.5s ease;
 }
 #heroTitle{
     font-size: 40px;
@@ -29,12 +33,14 @@ body{
     font-size: 20px;
     font-family: "Edu QLD Hand", cursive;
 }
+#heroImage{
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    border-radius: 15px;
+}
 .heroImage{
     flex: 1;
-}
-#heroImage{
-    
-    border-radius: 15px;
 }
 
 .carousel{
@@ -64,4 +70,19 @@ body{
 }
 .smLink:hover{
     color: white;
+}
+#home, #cards, #carouselExample, #contact{
+    scroll-margin-top: 80px;
+}
+
+@media (max-width: 992px){
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 110px 8% 40px 8%;
+    }
+    .heroImage{
+        flex: none;
+        width: 100%;
+    }
 }
